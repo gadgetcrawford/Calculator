@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="calculator-container">
+
+
+        <input type="text" class="display" name="display" id="display" disabled>
+
+
+        <input type=”button” class="one" name=”one” value='1' onclick=”calculator.display.value +=‘1’”>
+
+        <input type=”button” class="two" name=”two” value='2' onclick=”calculator.display.value +=‘2’”>
+
+        <input type=”button” class=”three” name=”three” value='3' onclick=”calculator.display.value +=‘3’”>
+
+        <input type=”button” class=”plus” name=”plus” value=+ onclick=”calculator.display.value +='+' ”>
+
+        <input type=”button” class=”four” name=”four” value='4' onclick=”calculator.display.value +=‘4’”>
+
+        <input type=”button” class=”five” name=”five” value='5' onclick=”calculator.display.value +=‘5’”>
+
+        <input type=”button” class=”six” name=”six” value='6' onclick=”calculator.display.value +=‘6’”>
+
+        <input type=”button” class=”operator” name=”minus” value=- onclick=”calculator.display.value +=‘-’”>
+
+        <input type=”button” class=”seven” name=”seven” value='7' onclick=”calculator.display.value +=‘7’”>
+
+        <input type=”button” class=”eight” name=”eight” value='8' onclick=”calculator.display.value +=‘8’”>
+
+        <input type=”button” class=”nine” name=”nine” value='9' onclick=”calculator.display.value +=‘9’”>
+
+        <input type=”button” class=”operator” name=”multiply” value=* onclick=”calculator.display.value +=‘*’”>
+
+        <td><input type="button" class="clear" name="clear" value="c" onclick="calculator.display.value = ''">
+
+            <input type=”button” class=”zero” name=”zero” value='0' onclick=”calculator.display.value +=‘0’”>
+
+            <input type="button" class=”equals” name="sum" value="=" onclick=" calculator.display.value=eval(calculator.display.value)">
+
+            <input type=”button” class=”operator” name=”divide” value=/ onclick=”calculator.display.value +=‘/’”>
+
+
+    </div>
+
+    </div>
+</body>
+
+
+</html>
